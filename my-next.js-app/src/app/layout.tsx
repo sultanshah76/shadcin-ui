@@ -22,12 +22,15 @@ export default function RootLayout({
           <Link href="/">Home</Link>
           <Link href="/dashboard">Dashboard</Link>
           <Link href="/dashboard/settings">Settings</Link>
+          <Link href="/dashboard/analytics">analytics</Link>
           <Link href="/blog">Blog</Link>
-          <a href="/contact-us">Contact Us</a>
+          <Link href="/contact-us">Contact Us</Link>
+          <Link href="/about-us">about-us</Link>
+          <Link href="/services">services</Link>
         </header>
         {children}
         <footer className="bg-gray-500 flex justify-center py-5">
-          <p>&copy; 2023 - All rights reserved.</p>
+          <div>&copy; 2023 - All rights reserved.</div>
         </footer>
       </body>
     </html>

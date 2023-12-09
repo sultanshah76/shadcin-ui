@@ -1,8 +1,7 @@
-
-export default function Button() {
+export default function Mybutton() {
   return (
-    <button className="bg-blue-500 text-white p-4">
-     Tailwind CSS button.
+    <button className="bg-yellow-500">
+    tailwind css button
     </button>
   );
 }

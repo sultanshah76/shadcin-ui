@@ -15,7 +15,7 @@ function rootlayout({
     <Link href="/contact-us">Contact Us</Link>
     <Link href="/about-us">About Us</Link>
     <Link href="/new/">NEW</Link>
-    {/* <Link href="/new/nested_2">NESTED_2</Link> */}
+    <Link href="/react">REACT</Link>
   </header>
         {children}
         <footer className="bg-gray-500 flex justify-center py-5">

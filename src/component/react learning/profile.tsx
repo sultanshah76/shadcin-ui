@@ -1,23 +1,19 @@
+import Image from "next/image"
+import couple from "@/component/assets/images/couple.jpg"
+export default function profile(){
+const pfile= {
+  name1:"deepika padukone",
+  name2:"XXX Return Of Xander Cage",
+  name3:"baran and dilan",
+  imagelink2:"https://m.media-amazon.com/images/M/MV5BMTY4NDYzNzE0N15BMl5BanBnXkFtZTgwNTQzNDk0MDI@._V1_.jpg",
+  imagelink1:"https://static.toiimg.com/photo/59632084.cms"}
+return <div className="">
+<img className="rounded-lg" src={pfile.imagelink1} alt="" width={100} height={100}/>
+<div>NAME:{pfile.name1}</div>
+<Image className="rounded-lg" src={pfile.imagelink2} alt="" width={100} height={100}/>
+<div>NAME:{pfile.name2}</div>
+<Image className="rounded-lg" src={couple} alt="" width={100} height={100}/>
+<div>NAME:{pfile.name3}</div>
 
-const user = {
-    name: "Hedy Lamarr",
-    imageUrl: "https://i.imgur.com/yXOvdOSs.jpg",
-    imageSize: 90,
-  };
-  
-  export default function Profile() {
-    return (
-      <div className="flex gap-5 flex-col">
-        <h1>{user.name}</h1>
-        <img
-          className="rounded-full"
-          src={user.imageUrl}
-          alt={"Photo of " + user.name}
-          style={{
-            width: user.imageSize,
-            height: user.imageSize,
-          }}
-        />
-      </div>
-    );
-  }
+
+</div>}

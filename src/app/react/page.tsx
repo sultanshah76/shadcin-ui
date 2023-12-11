@@ -3,20 +3,27 @@ import Button from "@/component/Button";
 import Mybutton from "@/component/react learning/My button";
 import Profile from "@/component/react learning/profile";
 import OnclickBUTTON from "@/component/onclick";
+import ConditionalRendering from "@/component/conditionalrendering";
 const user={
   name: "sultan ",
   rollno:"123"
 }
-const React = () => {
+export default function React() {
     return(<>
-    <div>This is react Page <div><Mybutton/></div>
+    <div className="">THIS IS REACT PAGE <div><Mybutton/></div>
     </div>
     <Button/>
-    <p><About/></p>
-   <div> user name:{user.name}
-    user roll no:{user.rollno}</div>
-   <div><Profile/></div>
-  <div><OnclickBUTTON/></div>
+    <div>THIS IS FRAGMENT TAG <div><About/></div>
+    </div>
+   <div>DISPLAYING DATA<div>user name:{user.name} user roll no:{user.rollno}</div>
+    </div>
+    <div>
+   <div>DISPLAYING PROFILE<Profile/></div>
+   </div>
+  <div>ON CLICK EVENT <div><OnclickBUTTON/></div>
+  </div>
+  <div>CONDITIONAL RENDERING<div><ConditionalRendering/></div>
+  </div>
   </>)}
   
-  export default React;
+ 

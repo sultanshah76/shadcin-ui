@@ -1,10 +1,10 @@
-import About from "@/component/Aboutcomponent";
+import About from "@/component/react learning/Aboutcomponent";
 import Button from "@/component/Button";
 import Mybutton from "@/component/react learning/My button";
-import OnclickBUTTON from "@/component/Onclick"
-import ConditionalRendering from "@/component/Conditionalrendering";
-import Rendringlists from "@/component/Rendringlist";
-import Updatestate from "@/component/Updatingstate";
+import OnclickBUTTON from "@/component/react learning/Onclick"
+import ConditionalRendering from "@/component/react learning/Conditionalrendering";
+import Rendringlists from "@/component/react learning/Rendringlist";
+import Updatestate from "@/component/react learning/Updatingstate";
 import Profile from "@/component/react learning/Profile";
 
 const user={

@@ -19,4 +19,4 @@ let array:number[]=[1,2,3,4,5];
    </p>
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum aperiam quae eaque aliquam totam </p>
   
-  </main>};
+  </main>}

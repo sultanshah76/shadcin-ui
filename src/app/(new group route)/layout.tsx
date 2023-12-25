@@ -1,4 +1,4 @@
-import { Children } from "react";
+import React from "react";
 import Link from "next/link";
 function Newlayout({children}:{children: React.ReactNode}){
     return <div className="flex gap-5">

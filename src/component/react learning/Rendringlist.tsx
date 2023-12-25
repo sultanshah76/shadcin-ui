@@ -11,4 +11,4 @@ const products = [
    {products.map((product,index)=>
     (<li key={index}>{product.title}</li>)
     )}
-    </div>};
+    </div>}

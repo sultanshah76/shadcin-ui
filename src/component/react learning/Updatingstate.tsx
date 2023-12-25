@@ -5,7 +5,7 @@ type updatestateuitype={
        count1?:number,
        count2?:number
 }
-export default function Updatestate({propcount,count1,count2}:updatestateuitype) {
+export default function Updatestate({propcount}:updatestateuitype) {
        // const={propcount,count1,count2} props
     const [Value,setValue]=useState<number>(propcount);
     function increment (){

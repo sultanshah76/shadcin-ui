@@ -5,7 +5,8 @@ import OnclickBUTTON from "@/component/react learning/Onclick"
 import ConditionalRendering from "@/component/react learning/Conditionalrendering";
 import Rendringlists from "@/component/react learning/Rendringlist";
 import Updatestate from "@/component/react learning/Updatingstate";
-import Profile from "@/component/react learning/Profile";
+import Profile from "@/component/react learning/deathpack";
+
 
 const user={
   name: "sultan ",

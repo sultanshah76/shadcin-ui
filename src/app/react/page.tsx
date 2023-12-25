@@ -1,9 +1,12 @@
 import About from "@/component/Aboutcomponent";
 import Button from "@/component/Button";
 import Mybutton from "@/component/react learning/My button";
-import Profile from "@/component/react learning/profile";
-import OnclickBUTTON from "@/component/onclick";
-import ConditionalRendering from "@/component/conditionalrendering";
+import OnclickBUTTON from "@/component/Onclick"
+import ConditionalRendering from "@/component/Conditionalrendering";
+import Rendringlists from "@/component/Rendringlist";
+import Updatestate from "@/component/Updatingstate";
+import Profile from "@/component/react learning/Profile";
+
 const user={
   name: "sultan ",
   rollno:"123"
@@ -23,6 +26,10 @@ export default function React() {
   <div>ON CLICK EVENT <div><OnclickBUTTON/></div>
   </div>
   <div>CONDITIONAL RENDERING<div><ConditionalRendering/></div>
+  </div>
+  <div>RENDERING LIST<div><Rendringlists/></div>
+  </div>
+  <div>UPDATE STATE<div><Updatestate propcount={0} count1={10} /></div>
   </div>
   </>)}
   

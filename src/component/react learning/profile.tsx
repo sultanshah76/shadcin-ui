@@ -1,6 +1,6 @@
 import Image from "next/image"
 import couple from "@/component/assets/images/couple.jpg"
-export default function profile(){
+export default function Profile(){
 const pfile= {
   name1:"deepika padukone",
   name2:"XXX Return Of Xander Cage",

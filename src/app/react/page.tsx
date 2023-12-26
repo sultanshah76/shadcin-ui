@@ -6,6 +6,7 @@ import ConditionalRendering from "@/component/react learning/Conditionalrenderin
 import Rendringlists from "@/component/react learning/Rendringlist";
 import Updatestate from "@/component/react learning/Updatingstate";
 import Profile from "@/component/react learning/deathpack";
+import { UpdateUIProps } from "@/component/react learning/UpdateuUIprops";
 
 
 const user={
@@ -30,7 +31,9 @@ export default function React() {
   </div>
   <div>RENDERING LIST<div><Rendringlists/></div>
   </div>
-  <div>UPDATE STATE<div><Updatestate propcount={0} count1={10} /></div>
+  <div>UPDATE STATE<div><Updatestate/></div>
+  </div>
+  <div>UPDATE UI PROPS<div><UpdateUIProps propValue={100}/></div>
   </div>
   </>)}
   

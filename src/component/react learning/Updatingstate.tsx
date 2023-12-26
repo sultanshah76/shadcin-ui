@@ -1,23 +1,20 @@
-"use client";
-import React,{useState} from 'react';
-type updatestateuitype={
-       propcount:number,
-       count1?:number,
-       count2?:number
-}
-export default function Updatestate({propcount}:updatestateuitype) {
-       // const={propcount,count1,count2} props
-    const [Value,setValue]=useState<number>(propcount);
+"use client"
+
+import { useState } from "react"
+
+export default function Updatestate() {
+    // let value=0
+    const [value, setvalue] = useState(0)
     function increment (){
-     setValue(Value+1)
+     setvalue(value+1)
     }
     function decrement (){
-     setValue(Value-1)
+     setvalue(value-1)
     }
     return (<>
-          <button  className="bg-green-500" onClick={increment}>INCREMENT</button>
-          {Value}
-          <button  className="bg-green-500" onClick={decrement}>DECREMENT</button>
+          <button  className="bg-green-500 rounded-md" onClick={increment}>INCREMENT</button>
+          {value}
+          <button  className="bg-green-500 rounded-md" onClick={decrement}>DECREMENT</button>
           </>)
 
 }

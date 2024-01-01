@@ -10,7 +10,7 @@ let array:number[]=[1,2,3,4,5];
     )}
   return <main className="flex min-h-screen flex-col items-center p-24 gap-5">
   <h1 className="font-bold text-6xl text-red-500" >(SHOWING FROM PAGE.TSX FILE.)</h1> 
-  <h2>THIS IS MAP FUNCTION</h2>
+  <h2 className="font-bold">THIS IS MAP FUNCTION</h2>
   {array.map((items,index) => {
   return items % 2 == 0 ? <div key={index}>this is even {items}</div> : <div>this is odd {items}</div>;
 })}

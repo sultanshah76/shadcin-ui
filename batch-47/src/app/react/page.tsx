@@ -1,3 +1,4 @@
+/* eslint-disable */
 import About from "@/component/react learning/Aboutcomponent";
 import Button from "@/component/Button";
 import Mybutton from "@/component/react learning/My button";
@@ -37,6 +38,6 @@ export default function React() {
   <div><UpdateUIProps propValue={100}/></div>
 
   </>)
-  };
+  }
   
  
